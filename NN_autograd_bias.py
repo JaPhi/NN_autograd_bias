@@ -99,7 +99,7 @@ W3_history = np.zeros_like(W3)
 W4_history = np.zeros_like(W4)
 
 
-# set the z axis limits so they aren't recalculated each frame.
+# set up figure for 3-D plot
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 
