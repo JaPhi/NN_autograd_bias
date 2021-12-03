@@ -9,7 +9,8 @@ from autograd import grad, elementwise_grad, jacobian
 
 
 def feed_forward(X, Y, W0, W1, W2, W3, W4, return_loss=True):
-    ''' simple 4-layer feed forward neural net. 
+    ''' simple 4-layer feed forward neural net. Gradients are caluclated with
+    the autograd package that performs automatic differentiation.
     Layers are hardcoded but can easily be modified. 
 
     Parameters
